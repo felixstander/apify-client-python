@@ -1,0 +1,18 @@
+actor:
+    apify/instagram-scraper
+
+run_input:
+
+    addParentData: False
+    directUrls: [
+        "https://www.instagram.com/kingjames/",
+    ]
+    enhanceUserSearchWithFacebookPage: False
+    isUserReelFeedURL: True
+    isUserTaggedFeedURL: False
+    onlyPostsNewerThan: 2024-10-01
+    resultsType: posts
+    searchLimit: 1
+    searchType: hashtag
+
+
